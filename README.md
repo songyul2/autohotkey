@@ -1,5 +1,5 @@
 # autohotkey
-
+<code>&nbsp;
 1::!
 2::@
 3::#
@@ -20,3 +20,4 @@ $+7::send 7
 $+8::send 8
 $+9::send 9
 $+0::send 0
+</code>
