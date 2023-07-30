@@ -1,5 +1,4 @@
 # autohotkey
-Switching/swapping number and symbol keys
 <code>
 1::!
 2::@
