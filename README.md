@@ -1,5 +1,8 @@
 # autohotkey
 <code>
+#SuspendExempt
+!s::Suspend  ; Alt+S
+#SuspendExempt False
 1::!
 2::@
 3::#
