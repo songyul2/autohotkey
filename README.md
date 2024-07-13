@@ -1,4 +1,15 @@
 # autohotkey
+https://stackoverflow.com/questions/41723490/how-to-build-ahk-scripts-automatically-on-startup 
+Simply add a shortcut of your script in the Windows 'Startup' folder.
+
+Three ways to get there:
+
+1- In Windows Explorer, go to %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup (for current user startup list) or %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Startup (for every user startup list)
+
+or
+
+2- Open Windows' Run application (Windows + r) write shell:startup (current user) or shell:common startup (every user) in the edit field and click on the 'ok' button.
+
 <code>
 #SuspendExempt
 !s::Suspend  ; Alt+S
